@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import BookCard from './BookCard';
 
-const API_URL = 'http://localhost:1990/api/books';
+const API_URL = 'http://bookstoreback-production.up.railway.app:1990/api/books';
 
 function SearchBooks() {
   const [searchType, setSearchType] = useState('title');
