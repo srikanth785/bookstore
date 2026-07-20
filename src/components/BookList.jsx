@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import BookCard from './BookCard';
 
-const API_URL = 'http://localhost:1990/api/books';
+const API_URL = 'http://bookstoreback-production.up.railway.app/api/books';
 
 function BookList({ refresh }) {
   const [books, setBooks] = useState([]);
