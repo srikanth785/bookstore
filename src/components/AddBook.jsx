@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 //const API_URL = 'https://bookstoreback-production.up.railway.app/api/books';
-const API_URL = 'https://https://bookstorenew.onrender.com/api/books';
+const API_URL = 'https://bookstorenew.onrender.com/api/books';
 
 function AddBook({ onBookAdded }) {
   const [formData, setFormData] = useState({
